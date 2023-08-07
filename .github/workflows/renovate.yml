@@ -20,3 +20,6 @@ jobs:
         with:
           configurationFile: renovate.json
           token: '${{ steps.get_token.outputs.token }}'
+        env:
+          LOG_LEVEL: 'debug'
+
