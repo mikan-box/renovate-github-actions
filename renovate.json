@@ -4,6 +4,7 @@
     "timezone": "Asia/Tokyo",
     "username":"self-hosted-renovate[bot]",
     "gitAuthor": "Self-hosted Renovate Bot <123456+self-hosted-renovate[bot]@users.noreply.github.enterprise.com>",
+    "repositories": ["mikan-box/renovate-github-actions"],
     "packageRules": [
       {
         "groupName": "eslint",
