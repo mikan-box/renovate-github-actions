@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:base"],
+    "timezone": "Asia/Tokyo",
+    "packageRules": [
+      {
+        "groupName": "eslint",
+        "matchPackagePrefixes": ["eslint", "@typescript-eslint"]
+      },
+      {
+        "groupName": "prettier",
+        "matchPackagePrefixes": ["prettier"]
+      },
+      {
+        "groupName": "astro",
+        "matchPackagePrefixes": ["astro", "@astrojs"]
+      }
+    ]
+  }
