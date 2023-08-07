@@ -2,6 +2,8 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:base"],
     "timezone": "Asia/Tokyo",
+    "username":"self-hosted-renovate[bot]",
+    "gitAuthor": "Self-hosted Renovate Bot <123456+self-hosted-renovate[bot]@users.noreply.github.enterprise.com>",
     "packageRules": [
       {
         "groupName": "eslint",
